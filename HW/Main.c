@@ -15,44 +15,44 @@ int main()
     printf("Welcome to 'Programming and eat' restaurant!\n\n");
     {//1
         printf("Enter the brownies price: ");
-        while(scanf("%f",  &browniePrice) == 0 || browniePrice < 0){
+        while(scanf("%f",  &browniePrice) == 0 || browniePrice < 0){// input check
             if (browniePrice < 0){
                 printf("\nEnter the brownies price: ");
             }
-            else{
+            else{//in here if error isnt caused by negative number
                 printf("\nInput error!");
                 return 1;
             }
         }
         printf("\nEnter the cheesecake price: ");
-        while(scanf("%f",  &cheesecakePrice) != 1 || cheesecakePrice < 0){
+        while(scanf("%f",  &cheesecakePrice) != 1 || cheesecakePrice < 0){// input check
             if (cheesecakePrice < 0){
                 printf("\nEnter the cheesecake price: ");
                 continue;
             }
-            else{
+            else{//in here if error isnt caused by negative number
                 printf("\nInput error!");
                 return 1;
             }
         }
         printf("\nEnter the tea price: ");
-        while(scanf("%f",  &teaPrice) != 1 || teaPrice < 0){
+        while(scanf("%f",  &teaPrice) != 1 || teaPrice < 0){//input check
             if (teaPrice < 0){
                 printf("\nEnter the tea price: ");
                 continue;
             }
-            else{
+            else{//in here if error isnt caused by negative number
                 printf("\nInput error!");
                 return 1;
             }
         }
         printf("\nEnter the cafe price: ");
-        while(scanf("%f",  &cafePrice) != 1 || cafePrice < 0){
+        while(scanf("%f",  &cafePrice) != 1 || cafePrice < 0){//input check
             if (cafePrice < 0){
                 printf("\nEnter the cafe price: ");
                 continue;
             }
-            else{
+            else{//in here if error isnt caused by negative number
                 printf("\nInput error!");
                 return 1;
             }
@@ -63,28 +63,28 @@ int main()
             printf("\nCUSTOMER 1:\n");
             printf("Enter the brownies amount: ");
             scanf("%d",  &customer1[0]);
-            if (customer1[0] < 0)
+            if (customer1[0] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cheesecake amount: ");
             scanf("%d", &customer1[1]);
-            if(customer1[1] < 0)
+            if(customer1[1] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the tea amount: ");
             scanf("%d", &customer1[2]);
-            if(customer1[2] < 0)
+            if(customer1[2] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cafe amount: ");
             scanf("%d", &customer1[3]);
-            if(customer1[3] < 0)
+            if(customer1[3] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
@@ -94,28 +94,28 @@ int main()
             printf("\nCUSTOMER 2:\n");
             printf("Enter the brownies amount: ");
             scanf("%d",  &customer2[0]);
-            if (customer2[0] < 0)
+            if (customer2[0] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cheesecake amount: ");
             scanf("%d", &customer2[1]);
-            if(customer2[1] < 0)
+            if(customer2[1] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the tea amount: ");
             scanf("%d", &customer2[2]);
-            if(customer2[2] < 0)
+            if(customer2[2] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cafe amount: ");
             scanf("%d", &customer2[3]);
-            if(customer2[3] < 0)
+            if(customer2[3] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
@@ -125,28 +125,28 @@ int main()
             printf("\nCUSTOMER 3:\n");
             printf("Enter the brownies amount: ");
             scanf("%d",  &customer3[0]);
-            if (customer3[0] < 0)
+            if (customer3[0] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cheesecake amount: ");
             scanf("%d", &customer3[1]);
-            if(customer3[1] < 0)
+            if(customer3[1] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the tea amount: ");
             scanf("%d", &customer3[2]);
-            if(customer3[2] < 0)
+            if(customer3[2] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cafe amount: ");
             scanf("%d", &customer3[3]);
-            if(customer3[3] < 0)
+            if(customer3[3] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
@@ -156,28 +156,28 @@ int main()
             printf("\nCUSTOMER 4:\n");
             printf("Enter the brownies amount: ");
             scanf("%d",  &customer4[0]);
-            if (customer4[0] < 0)
+            if (customer4[0] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cheesecake amount: ");
             scanf("%d", &customer4[1]);
-            if(customer4[1] < 0)
+            if(customer4[1] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the tea amount: ");
             scanf("%d", &customer4[2]);
-            if(customer4[2] < 0)
+            if(customer4[2] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cafe amount: ");
             scanf("%d", &customer4[3]);
-            if(customer4[3] < 0)
+            if(customer4[3] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
@@ -187,28 +187,28 @@ int main()
             printf("\nCUSTOMER 5:\n");
             printf("Enter the brownies amount: ");
             scanf("%d",  &customer5[0]);
-            if (customer5[0] < 0)
+            if (customer5[0] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cheesecake amount: ");
             scanf("%d", &customer5[1]);
-            if(customer5[1] < 0)
+            if(customer5[1] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the tea amount: ");
             scanf("%d", &customer5[2]);
-            if(customer5[2] < 0)
+            if(customer5[2] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cafe amount: ");
             scanf("%d", &customer5[3]);
-            if(customer5[3] < 0)
+            if(customer5[3] < 0)//error check
             {
                 printf("\nInput error!");
                 return 1;
@@ -218,7 +218,7 @@ int main()
     {
         //4
         for(i = 0; i < SIZE; i++){//4abcd
-            if(customer1[i] > mostOfThisAmount){
+            if(customer1[i] > mostOfThisAmount){//checks for max in each customer in each category and saves it only for once and forgets at the end
                 mostOfThisAmount = customer1[i];
                 mostOfThisID = 1;
             }
@@ -258,7 +258,7 @@ int main()
             mostOfThisID = 0;
         }
 
-        for(i = 0; i < SIZE; i++){//filling sums
+        for(i = 0; i < SIZE; i++){//filling sums with the total orders
             sums[i] = customer1[i] + customer2[i] + customer3[i] + customer4[i] + customer5[i];
         }
         // 4e
