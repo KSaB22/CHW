@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,7 +5,7 @@
 
 int main()
 {
-    float browniePrice = -1, cheesecakePrice = -1, teaPrice = -1, cafePrice = -1;
+    float browniePrice , cheesecakePrice , teaPrice , cafePrice;
     int i = 0;
     int customer1[SIZE],customer2[SIZE],customer3[SIZE],customer4[SIZE],customer5[SIZE];//place 0 is for brownies amount 1 is for cheescake amount 2 is for tea amount and 3 is for cafe amount
     int mostOfThisID = 0, mostOfThisAmount = -1;
@@ -16,13 +15,12 @@ int main()
     printf("Welcome to 'Programming and eat' restaurant!\n\n");
     {//1
         printf("Enter the brownies price: ");
-        while((scanf("%f",  &browniePrice) != 1) || browniePrice < 0){
+        while(scanf("%f",  &browniePrice) == 0 || browniePrice < 0){
             if (browniePrice < 0){
                 printf("\nEnter the brownies price: ");
-                continue;
             }
             else{
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
         }
@@ -33,7 +31,7 @@ int main()
                 continue;
             }
             else{
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
         }
@@ -44,7 +42,7 @@ int main()
                 continue;
             }
             else{
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
         }
@@ -55,7 +53,7 @@ int main()
                 continue;
             }
             else{
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
         }
@@ -67,28 +65,28 @@ int main()
             scanf("%d",  &customer1[0]);
             if (customer1[0] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cheesecake amount: ");
             scanf("%d", &customer1[1]);
             if(customer1[1] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the tea amount: ");
             scanf("%d", &customer1[2]);
             if(customer1[2] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cafe amount: ");
             scanf("%d", &customer1[3]);
             if(customer1[3] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
         }
@@ -98,28 +96,28 @@ int main()
             scanf("%d",  &customer2[0]);
             if (customer2[0] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cheesecake amount: ");
             scanf("%d", &customer2[1]);
             if(customer2[1] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the tea amount: ");
             scanf("%d", &customer2[2]);
             if(customer2[2] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cafe amount: ");
             scanf("%d", &customer2[3]);
             if(customer2[3] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
         }
@@ -129,28 +127,28 @@ int main()
             scanf("%d",  &customer3[0]);
             if (customer3[0] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cheesecake amount: ");
             scanf("%d", &customer3[1]);
             if(customer3[1] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the tea amount: ");
             scanf("%d", &customer3[2]);
             if(customer3[2] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cafe amount: ");
             scanf("%d", &customer3[3]);
             if(customer3[3] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
         }
@@ -160,28 +158,28 @@ int main()
             scanf("%d",  &customer4[0]);
             if (customer4[0] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cheesecake amount: ");
             scanf("%d", &customer4[1]);
             if(customer4[1] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the tea amount: ");
             scanf("%d", &customer4[2]);
             if(customer4[2] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cafe amount: ");
             scanf("%d", &customer4[3]);
             if(customer4[3] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
         }
@@ -191,28 +189,28 @@ int main()
             scanf("%d",  &customer5[0]);
             if (customer5[0] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cheesecake amount: ");
             scanf("%d", &customer5[1]);
             if(customer5[1] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the tea amount: ");
             scanf("%d", &customer5[2]);
             if(customer5[2] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
             printf("\nEnter the cafe amount: ");
             scanf("%d", &customer5[3]);
             if(customer5[3] < 0)
             {
-                printf("Input error!");
+                printf("\nInput error!");
                 return 1;
             }
         }
