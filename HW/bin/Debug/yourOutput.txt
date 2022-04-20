@@ -1,7 +1,4 @@
-Welcome to 'Programming and eat' restaurant!
-
-Enter the brownies price: 
-Enter the cheesecake price: 
-Enter the tea price: 
-Enter the cafe price: 
-Input error!
+Please enter your message: 
+WhatsUp
+Please enter Daniel route: 
+Sorry, I did not find a way

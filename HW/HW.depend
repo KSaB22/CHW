@@ -1,5 +1,9 @@
 # depslib dependency file v1.0
-1649171722 source:c:\users\kfirb\onedrive\desktop\hw\chw\hw\main.c
+1650275751 source:c:\users\kfirb\onedrive\desktop\hw\chw\hw\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1649669347 source:c:\users\kfirb\onedrive\desktop\hw\chw\hw\hw2.c
 	<stdio.h>
 	<stdlib.h>
 
