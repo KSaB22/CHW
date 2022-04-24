@@ -34,14 +34,13 @@ int main()
 {
     char message[N];
     int route[SIZE];
+    int i = 0;
     printf("Please enter your message: \n");
     scanf("%s", message);
     reverseCode(message, 0);
     printf("\nPlease enter Daniel route: \n");
-    if(scanf("%d %d %d %d %d %d %d %d %d %d", &route[0] , &route[1], &route[2] , &route[3], &route[4] , &route[5], &route[6] , &route[7], &route[8] , &route[9])!= 10)
-    {
-        printf("Invalid Input");
-        return 1;
+    for(i =0; i < SIZE; i++){
+        scanf("%d", &route[i]);
     }
     if(IsValidRoute(route,0,1,0)){
         printf("I'm coming!\n");
